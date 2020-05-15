@@ -1,0 +1,769 @@
+2020-mai-15 02:31:05 AM [main] INFO  com.sakhri.userService.services.impl.UserServiceImplTest - No active profile set, falling back to default profiles: default
+2020-mai-15 02:31:25 AM [main] INFO  com.sakhri.userService.services.impl.UserServiceImplTest - Started UserServiceImplTest in 21.715 seconds (JVM running for 29.45)
+2020-mai-15 02:31:26 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=ac2c0480-cec6-4506-a362-21089c6ee7c1, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=null)
+2020-mai-15 02:31:59 AM [main] INFO  com.sakhri.userService.services.impl.UserServiceImplTest - The following profiles are active: test
+2020-mai-15 02:33:14 AM [main] INFO  com.sakhri.userService.services.impl.UserServiceImplTest - The following profiles are active: test
+2020-mai-15 02:35:36 AM [main] INFO  com.sakhri.userService.services.impl.UserServiceImplTest - The following profiles are active: test
+2020-mai-15 02:38:18 AM [main] INFO  com.sakhri.userService.services.impl.UserServiceImplTest - No active profile set, falling back to default profiles: default
+2020-mai-15 02:38:38 AM [main] INFO  com.sakhri.userService.services.impl.UserServiceImplTest - Started UserServiceImplTest in 21.268 seconds (JVM running for 28.671)
+2020-mai-15 02:38:38 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=f9bb0a37-0971-4c2a-8916-9928ead27561, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=null)
+2020-mai-15 02:38:38 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=user1@gmail.com, userId=e13bd6f9-579a-497e-8c48-bf4b96406345, encryptedPassword=$2a$10$9y0fRk39RiBXR.YWxHjXY.jNyu7zhSu92YMkucZJDEccwXzL3AJxG, age=22, height=180, weight=88, role=null)
+2020-mai-15 02:52:44 AM [main] INFO  com.sakhri.userService.services.impl.UserServiceImplTest - No active profile set, falling back to default profiles: default
+2020-mai-15 02:53:04 AM [main] INFO  com.sakhri.userService.services.impl.UserServiceImplTest - Started UserServiceImplTest in 21.638 seconds (JVM running for 29.868)
+2020-mai-15 02:53:04 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Updating user id 16c8b0f7-a91c-474a-93a8-f9ca9b339c36 with UserDto(firstName=firstName1, lastName=lastname1, userId=16c8b0f7-a91c-474a-93a8-f9ca9b339c36, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=null)
+2020-mai-15 02:53:04 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=352f64f3-7540-4b56-8bc6-5420e78d7d8c, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=null)
+2020-mai-15 02:53:05 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=user1@gmail.com, userId=e29eaecb-43d3-441f-85c5-732b401429f6, encryptedPassword=$2a$10$x6VOXrGQ3h8NQ3Q32ZS6TOGTKB/AL28ZgQGy61qPNfpbTIz7WrfNC, age=22, height=180, weight=88, role=null)
+2020-mai-15 02:53:05 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Updating user id 9ceb7a35-0383-4740-89a0-42f5239c3f29 with UserDto(firstName=firstName1, lastName=lastname1, userId=9ceb7a35-0383-4740-89a0-42f5239c3f29, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=null)
+2020-mai-15 02:53:59 AM [main] INFO  com.sakhri.userService.repository.UserRepositoryTest - No active profile set, falling back to default profiles: default
+2020-mai-15 02:54:02 AM [main] INFO  com.sakhri.userService.repository.UserRepositoryTest - Started UserRepositoryTest in 3.969 seconds (JVM running for 10.794)
+2020-mai-15 02:54:08 AM [main] INFO  com.sakhri.userService.integration.UserControllerIntegrationTest - No active profile set, falling back to default profiles: default
+2020-mai-15 02:54:21 AM [main] INFO  com.sakhri.userService.integration.UserControllerIntegrationTest - Started UserControllerIntegrationTest in 17.824 seconds (JVM running for 29.246)
+2020-mai-15 02:54:21 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=null, password=abcdefghijklmn, encryptedPassword=null, email=userdelete@gmail.com, age=22, height=180, weight=88, role=User)
+2020-mai-15 02:54:21 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=userdelete@gmail.com, userId=3b8c59cd-8f3a-4ed0-ad13-553dcf315b49, encryptedPassword=$2a$10$XWYSV9.sxD9UZqaaMBDZxuGuInXNncomnMV0PSyrX8SKkUaaCg6GG, age=22, height=180, weight=88, role=User)
+2020-mai-15 02:54:21 AM [main] INFO  com.sakhri.userService.controller.UserController - Deleting existing user with userId 3b8c59cd-8f3a-4ed0-ad13-553dcf315b49
+2020-mai-15 02:54:21 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - deleting user with id 3b8c59cd-8f3a-4ed0-ad13-553dcf315b49
+2020-mai-15 02:54:21 AM [main] INFO  com.sakhri.userService.controller.UserController - User succesfully deleted.
+2020-mai-15 02:54:21 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Deleting all users
+2020-mai-15 02:54:21 AM [main] INFO  com.sakhri.userService.controller.UserController - Creating new user with data CreateUserResquest(firstName=firstName1, lastName=lastname1, role=User, password=abcdefghijklmn, email=user1@gmail.com, age=22, height=180, weight=88)
+2020-mai-15 02:54:21 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=null, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=User)
+2020-mai-15 02:54:21 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=user1@gmail.com, userId=0873bbc0-df82-4f1c-9936-83984f9782f3, encryptedPassword=$2a$10$5aSWGPQjneY3kxBMUIjEl.oZEWtIb2GwXwCglyhvCaViwi86k.xaW, age=22, height=180, weight=88, role=User)
+2020-mai-15 02:54:21 AM [main] INFO  com.sakhri.userService.controller.UserController - User succesfully created  CreateUserResponse(firstName=firstName1, lastName=lastname1, email=user1@gmail.com, userId=0873bbc0-df82-4f1c-9936-83984f9782f3)
+2020-mai-15 02:54:21 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Deleting all users
+2020-mai-15 02:54:21 AM [main] ERROR com.sakhri.userService.exceptions.GlobalExceptionHandler - ExceptionHandler Response : ApiResponseDto(timestamp=2020-05-15T02:54:21.729812, message=[Email cannot be null], details=uri=/users)
+2020-mai-15 02:54:21 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Deleting all users
+2020-mai-15 02:54:21 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=null, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=User)
+2020-mai-15 02:54:21 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=user1@gmail.com, userId=2acdb5ba-3b5c-4768-ba08-e3c301200693, encryptedPassword=$2a$10$cWnipt59EewhoryMxAw6FuQouOAgPg9952mYYvStB19HpXYtJSXEW, age=22, height=180, weight=88, role=User)
+2020-mai-15 02:54:21 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName2, lastName=lastname2, userId=null, password=abcdefghijklmn, encryptedPassword=null, email=user2@gmail.com, age=22, height=180, weight=88, role=User)
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName2, lastName=lastname2, email=user2@gmail.com, userId=da535ac1-93bf-4f5c-902a-1a7b80c94a9b, encryptedPassword=$2a$10$Xz37aGiSRLpMtTLudAFL1.tAz5VWN9eUOZCKDgLcjLcI1KJPa59FO, age=22, height=180, weight=88, role=User)
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.controller.UserController - Getting users by filters UserFilterDto(userId=, firstName=firstName1, lastName=, age=null, height=null, weight=null)
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Finding all users by filters UserFilterDto(userId=, firstName=firstName1, lastName=, age=null, height=null, weight=null)
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.controller.UserController - Filtred users retreived [UserDto(firstName=firstName1, lastName=lastname1, userId=2acdb5ba-3b5c-4768-ba08-e3c301200693, password=null, encryptedPassword=$2a$10$cWnipt59EewhoryMxAw6FuQouOAgPg9952mYYvStB19HpXYtJSXEW, email=user1@gmail.com, age=22, height=180, weight=88, role=User)]
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.controller.UserController - Getting users by filters UserFilterDto(userId=, firstName=, lastName=, age=22, height=null, weight=null)
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Finding all users by filters UserFilterDto(userId=, firstName=, lastName=, age=22, height=null, weight=null)
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.controller.UserController - Filtred users retreived [UserDto(firstName=firstName1, lastName=lastname1, userId=2acdb5ba-3b5c-4768-ba08-e3c301200693, password=null, encryptedPassword=$2a$10$cWnipt59EewhoryMxAw6FuQouOAgPg9952mYYvStB19HpXYtJSXEW, email=user1@gmail.com, age=22, height=180, weight=88, role=User), UserDto(firstName=firstName2, lastName=lastname2, userId=da535ac1-93bf-4f5c-902a-1a7b80c94a9b, password=null, encryptedPassword=$2a$10$Xz37aGiSRLpMtTLudAFL1.tAz5VWN9eUOZCKDgLcjLcI1KJPa59FO, email=user2@gmail.com, age=22, height=180, weight=88, role=User)]
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.controller.UserController - Getting users by filters UserFilterDto(userId=, firstName=firstName1, lastName=lastname2, age=22, height=null, weight=null)
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Finding all users by filters UserFilterDto(userId=, firstName=firstName1, lastName=lastname2, age=22, height=null, weight=null)
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.controller.UserController - Filtred users retreived []
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Deleting all users
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=null, password=abcdefghijklmn, encryptedPassword=null, email=userUpdate@gmail.com, age=22, height=180, weight=88, role=User)
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=userUpdate@gmail.com, userId=badb4acc-374c-46c8-a5df-f19f3dbd5d42, encryptedPassword=$2a$10$mx98o4XBxV565mq0QejyNOdV5qTQEbChFfRypuGtaiUJyAtS1JuMO, age=22, height=180, weight=88, role=User)
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.controller.UserController - Updating existing user with id badb4acc-374c-46c8-a5df-f19f3dbd5d42 and data UpdateUserResquest(firstName=firstName1, lastName=lastname1, age=20, height=120, weight=80)
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Updating user id badb4acc-374c-46c8-a5df-f19f3dbd5d42 with UserDto(firstName=firstName1, lastName=lastname1, userId=null, password=null, encryptedPassword=null, email=null, age=20, height=120, weight=80, role=null)
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.controller.UserController - User succesfully updated.
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Deleting all users
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.controller.UserController - Deleting existing user with userId NO_EXISTING_ID
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - deleting user with id NO_EXISTING_ID
+2020-mai-15 02:54:22 AM [main] ERROR com.sakhri.userService.exceptions.GlobalExceptionHandler - User not found.
+java.lang.IllegalArgumentException: User not found.
+	at com.sakhri.userService.service.impl.UserServiceImpl.lambda$deleteUser$1(UserServiceImpl.java:83) ~[classes/:?]
+	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
+	at com.sakhri.userService.service.impl.UserServiceImpl.deleteUser(UserServiceImpl.java:82) ~[classes/:?]
+	at com.sakhri.userService.controller.UserController.deleteUser(UserController.java:85) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:666) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:167) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:183) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at com.sakhri.userService.integration.UserControllerIntegrationTest.whenDeletingUserWithNonExistingIDThenReturn400Status(UserControllerIntegrationTest.java:256) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675) ~[junit-platform-commons-1.5.2.jar:1.5.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150) [surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124) [surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.2.jar:2.22.2]
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.exceptions.GlobalExceptionHandler - ExceptionHandler Response : ApiResponseDto(timestamp=2020-05-15T02:54:22.320930, message=User not found., details=uri=/users/NO_EXISTING_ID)
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Deleting all users
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=12f51b54-42cf-43ff-b13d-f688874c5b1d, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=User)
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=user1@gmail.com, userId=c3ec6912-ba8d-4918-b2ad-ef284eaac8a6, encryptedPassword=$2a$10$S23yh2ejzieDZc0vPdPXMOTszGg1sEk54HUXnneUXdw1PuaxnjGLq, age=22, height=180, weight=88, role=User)
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.controller.JwtAuthenticationController - Authenticating request LoginRequest(email=user1@gmail.com, password=abcdefghijklmn)
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.controller.JwtAuthenticationController - Authenticating user with username user1@gmail.com and pwd abcdefghijklmn 
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Loading UserDetails By Username user1@gmail.com
+2020-mai-15 02:54:22 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Getting user by email user1@gmail.com
+2020-mai-15 02:54:23 AM [main] INFO  com.sakhri.userService.controller.JwtAuthenticationController - User succfully authenticated JwtResponse(userId=c3ec6912-ba8d-4918-b2ad-ef284eaac8a6, token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMUBnbWFpbC5jb20iLCJleHAiOjE1ODk1MjIwNjIsImlhdCI6MTU4OTUwNDA2Mn0.jUIHqW55J604zJo0_Hjk2nJcX9J6LISFyA6o5B360DKbJCaZezM2dGkqsobKWde5KMQ7_MIJlAYuZas0D1HevQ, firstName=firstName1, lastName=lastname1, age=22, height=180, weight=88, role=User)
+2020-mai-15 02:54:23 AM [main] INFO  com.sakhri.userService.controller.JwtAuthenticationController - Authenticating request LoginRequest(email=userjj1@gmail.com, password=abcdefghijklmn)
+2020-mai-15 02:54:23 AM [main] INFO  com.sakhri.userService.controller.JwtAuthenticationController - Authenticating user with username userjj1@gmail.com and pwd abcdefghijklmn 
+2020-mai-15 02:54:23 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Loading UserDetails By Username userjj1@gmail.com
+2020-mai-15 02:54:23 AM [main] ERROR com.sakhri.userService.exceptions.GlobalExceptionHandler - INVALID_CREDENTIALS
+org.springframework.security.authentication.BadCredentialsException: INVALID_CREDENTIALS
+	at com.sakhri.userService.controller.JwtAuthenticationController.authenticate(JwtAuthenticationController.java:74) ~[classes/:?]
+	at com.sakhri.userService.controller.JwtAuthenticationController.createAuthenticationToken(JwtAuthenticationController.java:43) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:167) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:183) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at com.sakhri.userService.integration.JwtAuthenticationControllerIntegrationTest.whenCreateAuthenticationTokenWithInvalidCredentialsThenReturn401Status(JwtAuthenticationControllerIntegrationTest.java:109) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675) ~[junit-platform-commons-1.5.2.jar:1.5.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150) [surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124) [surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.2.jar:2.22.2]
+Caused by: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:151) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at com.sakhri.userService.controller.JwtAuthenticationController.authenticate(JwtAuthenticationController.java:70) ~[classes/:?]
+	... 88 more
+2020-mai-15 02:54:23 AM [main] INFO  com.sakhri.userService.exceptions.GlobalExceptionHandler - ExceptionHandler Response : ApiResponseDto(timestamp=2020-05-15T02:54:23.271252, message=INVALID_CREDENTIALS, details=uri=/authenticate)
+2020-mai-15 02:54:23 AM [main] INFO  com.sakhri.userService.UserServiceApplicationTests - No active profile set, falling back to default profiles: default
+2020-mai-15 02:54:32 AM [main] INFO  com.sakhri.userService.UserServiceApplicationTests - Started UserServiceApplicationTests in 8.967 seconds (JVM running for 40.46)
+2020-mai-15 02:54:32 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Updating user id 6ba059a1-3865-4fe5-b9b6-6e73336da1c4 with UserDto(firstName=firstName1, lastName=lastname1, userId=6ba059a1-3865-4fe5-b9b6-6e73336da1c4, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=null)
+2020-mai-15 02:54:32 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=f3ca1d53-beef-49d7-beb7-e780676f5ef4, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=null)
+2020-mai-15 02:54:32 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=user1@gmail.com, userId=32d70f56-d9ab-443e-8b1f-9878be676650, encryptedPassword=$2a$10$hIgv7LYSzi3.W2F3YkkkbOnidFXa.kWo.c987GQJEvf18/XlwQCEe, age=22, height=180, weight=88, role=null)
+2020-mai-15 02:54:32 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Updating user id 9f67f1a6-ce2b-4944-bc1c-a150def9f415 with UserDto(firstName=firstName1, lastName=lastname1, userId=9f67f1a6-ce2b-4944-bc1c-a150def9f415, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=null)
+2020-mai-15 05:20:18 AM [main] INFO  com.sakhri.userService.repository.UserRepositoryTest - No active profile set, falling back to default profiles: default
+2020-mai-15 05:20:22 AM [main] INFO  com.sakhri.userService.repository.UserRepositoryTest - Started UserRepositoryTest in 4.456 seconds (JVM running for 11.489)
+2020-mai-15 05:20:27 AM [main] INFO  com.sakhri.userService.integration.UserControllerIntegrationTest - No active profile set, falling back to default profiles: default
+2020-mai-15 05:20:40 AM [main] INFO  com.sakhri.userService.integration.UserControllerIntegrationTest - Started UserControllerIntegrationTest in 18.039 seconds (JVM running for 30.032)
+2020-mai-15 05:20:40 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=null, password=abcdefghijklmn, encryptedPassword=null, email=userdelete@gmail.com, age=22, height=180, weight=88, role=User)
+2020-mai-15 05:20:40 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=userdelete@gmail.com, userId=4e0ac8af-544d-42ac-98d9-6ed409632e22, encryptedPassword=$2a$10$bnBZa75jKtxJ4e90905Vb..8ts8kiMUJvQr0m5T74Kdu78dM7TVVW, age=22, height=180, weight=88, role=User)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.controller.UserController - Deleting existing user with userId 4e0ac8af-544d-42ac-98d9-6ed409632e22
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - deleting user with id 4e0ac8af-544d-42ac-98d9-6ed409632e22
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.controller.UserController - User succesfully deleted.
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Deleting all users
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.controller.UserController - Creating new user with data CreateUserResquest(firstName=firstName1, lastName=lastname1, role=User, password=abcdefghijklmn, email=user1@gmail.com, age=22, height=180, weight=88)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=null, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=User)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=user1@gmail.com, userId=fcaa4e11-650c-4437-b5d0-61238b8c20b6, encryptedPassword=$2a$10$M4AUskYefh4K9rT7HN1Yu.Pel9f1gjJ/DI05AqmH.zCkkmqTpHALm, age=22, height=180, weight=88, role=User)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.controller.UserController - User succesfully created  CreateUserResponse(firstName=firstName1, lastName=lastname1, email=user1@gmail.com, userId=fcaa4e11-650c-4437-b5d0-61238b8c20b6)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Deleting all users
+2020-mai-15 05:20:41 AM [main] ERROR com.sakhri.userService.exceptions.GlobalExceptionHandler - ExceptionHandler Response : ApiResponseDto(timestamp=2020-05-15T05:20:41.386344, message=[Email cannot be null], details=uri=/users)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Deleting all users
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=null, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=User)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=user1@gmail.com, userId=e11c9af0-fd70-4635-a896-b8d07a320b3b, encryptedPassword=$2a$10$KD22Aju3J1WmkOiDts1Q5.y6xHbVVkFxhde/bcwb6.IL2kNJujmWq, age=22, height=180, weight=88, role=User)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName2, lastName=lastname2, userId=null, password=abcdefghijklmn, encryptedPassword=null, email=user2@gmail.com, age=22, height=180, weight=88, role=User)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName2, lastName=lastname2, email=user2@gmail.com, userId=a80fb300-a0ac-4490-9fc6-08ce1c01e57a, encryptedPassword=$2a$10$L.fm7BvuWUllUuATyW.fr.u0Ik2wSscHexaksZ1ez3dAwLNEV4PXO, age=22, height=180, weight=88, role=User)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.controller.UserController - Getting users by filters UserFilterDto(userId=, firstName=firstName1, lastName=, age=null, height=null, weight=null)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Finding all users by filters UserFilterDto(userId=, firstName=firstName1, lastName=, age=null, height=null, weight=null)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.controller.UserController - Filtred users retreived [UserDto(firstName=firstName1, lastName=lastname1, userId=e11c9af0-fd70-4635-a896-b8d07a320b3b, password=null, encryptedPassword=$2a$10$KD22Aju3J1WmkOiDts1Q5.y6xHbVVkFxhde/bcwb6.IL2kNJujmWq, email=user1@gmail.com, age=22, height=180, weight=88, role=User)]
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.controller.UserController - Getting users by filters UserFilterDto(userId=, firstName=, lastName=, age=22, height=null, weight=null)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Finding all users by filters UserFilterDto(userId=, firstName=, lastName=, age=22, height=null, weight=null)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.controller.UserController - Filtred users retreived [UserDto(firstName=firstName1, lastName=lastname1, userId=e11c9af0-fd70-4635-a896-b8d07a320b3b, password=null, encryptedPassword=$2a$10$KD22Aju3J1WmkOiDts1Q5.y6xHbVVkFxhde/bcwb6.IL2kNJujmWq, email=user1@gmail.com, age=22, height=180, weight=88, role=User), UserDto(firstName=firstName2, lastName=lastname2, userId=a80fb300-a0ac-4490-9fc6-08ce1c01e57a, password=null, encryptedPassword=$2a$10$L.fm7BvuWUllUuATyW.fr.u0Ik2wSscHexaksZ1ez3dAwLNEV4PXO, email=user2@gmail.com, age=22, height=180, weight=88, role=User)]
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.controller.UserController - Getting users by filters UserFilterDto(userId=, firstName=firstName1, lastName=lastname2, age=22, height=null, weight=null)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Finding all users by filters UserFilterDto(userId=, firstName=firstName1, lastName=lastname2, age=22, height=null, weight=null)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.controller.UserController - Filtred users retreived []
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Deleting all users
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=null, password=abcdefghijklmn, encryptedPassword=null, email=userUpdate@gmail.com, age=22, height=180, weight=88, role=User)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=userUpdate@gmail.com, userId=220279e6-e0da-40be-89ca-ee93dbe2e362, encryptedPassword=$2a$10$pzlboX6j2OHiPchkTO/MQONpO9tvJociMCpyzowAOLghwUgIz.4RW, age=22, height=180, weight=88, role=User)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.controller.UserController - Updating existing user with id 220279e6-e0da-40be-89ca-ee93dbe2e362 and data UpdateUserResquest(firstName=firstName1, lastName=lastname1, age=20, height=120, weight=80)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Updating user id 220279e6-e0da-40be-89ca-ee93dbe2e362 with UserDto(firstName=firstName1, lastName=lastname1, userId=null, password=null, encryptedPassword=null, email=null, age=20, height=120, weight=80, role=null)
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.controller.UserController - User succesfully updated.
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Deleting all users
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.controller.UserController - Deleting existing user with userId NO_EXISTING_ID
+2020-mai-15 05:20:41 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - deleting user with id NO_EXISTING_ID
+2020-mai-15 05:20:42 AM [main] ERROR com.sakhri.userService.exceptions.GlobalExceptionHandler - User not found.
+java.lang.IllegalArgumentException: User not found.
+	at com.sakhri.userService.service.impl.UserServiceImpl.lambda$deleteUser$1(UserServiceImpl.java:83) ~[classes/:?]
+	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
+	at com.sakhri.userService.service.impl.UserServiceImpl.deleteUser(UserServiceImpl.java:82) ~[classes/:?]
+	at com.sakhri.userService.controller.UserController.deleteUser(UserController.java:82) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:666) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:167) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:183) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at com.sakhri.userService.integration.UserControllerIntegrationTest.whenDeletingUserWithNonExistingIDThenReturn400Status(UserControllerIntegrationTest.java:256) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675) ~[junit-platform-commons-1.5.2.jar:1.5.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150) [surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124) [surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.2.jar:2.22.2]
+2020-mai-15 05:20:42 AM [main] INFO  com.sakhri.userService.exceptions.GlobalExceptionHandler - ExceptionHandler Response : ApiResponseDto(timestamp=2020-05-15T05:20:42.021279, message=User not found., details=uri=/users/NO_EXISTING_ID)
+2020-mai-15 05:20:42 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Deleting all users
+2020-mai-15 05:20:42 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=a37bbb08-768c-486f-8abe-b3df2595d7ad, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=User)
+2020-mai-15 05:20:42 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=user1@gmail.com, userId=1ce07eb8-93b3-4c96-92b9-f76f11eb4e70, encryptedPassword=$2a$10$//ukxDjSA6Usa482sN.Y6uCRC8TB4JZhDMgRPchhBU46af72z.Sj., age=22, height=180, weight=88, role=User)
+2020-mai-15 05:20:42 AM [main] INFO  com.sakhri.userService.controller.JwtAuthenticationController - Authenticating request LoginRequest(email=user1@gmail.com, password=abcdefghijklmn)
+2020-mai-15 05:20:42 AM [main] INFO  com.sakhri.userService.controller.JwtAuthenticationController - Authenticating user with username user1@gmail.com and pwd abcdefghijklmn 
+2020-mai-15 05:20:42 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Loading UserDetails By Username user1@gmail.com
+2020-mai-15 05:20:42 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Getting user by email user1@gmail.com
+2020-mai-15 05:20:42 AM [main] INFO  com.sakhri.userService.controller.JwtAuthenticationController - User succfully authenticated JwtResponse(userId=1ce07eb8-93b3-4c96-92b9-f76f11eb4e70, token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMUBnbWFpbC5jb20iLCJleHAiOjE1ODk1MzA4NDIsImlhdCI6MTU4OTUxMjg0Mn0.2eiBJBNUK5JUpj-dE10zvF-JgyjMUaWqt4U9U4encCzqOsnIc_TO0-7-kLaKjJvRZWhlMoF6zKMv7RHpopgwCA, firstName=firstName1, lastName=lastname1, age=22, height=180, weight=88, role=User)
+2020-mai-15 05:20:42 AM [main] INFO  com.sakhri.userService.controller.JwtAuthenticationController - Authenticating request LoginRequest(email=userjj1@gmail.com, password=abcdefghijklmn)
+2020-mai-15 05:20:42 AM [main] INFO  com.sakhri.userService.controller.JwtAuthenticationController - Authenticating user with username userjj1@gmail.com and pwd abcdefghijklmn 
+2020-mai-15 05:20:42 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Loading UserDetails By Username userjj1@gmail.com
+2020-mai-15 05:20:42 AM [main] ERROR com.sakhri.userService.exceptions.GlobalExceptionHandler - INVALID_CREDENTIALS
+org.springframework.security.authentication.BadCredentialsException: INVALID_CREDENTIALS
+	at com.sakhri.userService.controller.JwtAuthenticationController.authenticate(JwtAuthenticationController.java:74) ~[classes/:?]
+	at com.sakhri.userService.controller.JwtAuthenticationController.createAuthenticationToken(JwtAuthenticationController.java:43) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:167) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:183) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at com.sakhri.userService.integration.JwtAuthenticationControllerIntegrationTest.whenCreateAuthenticationTokenWithInvalidCredentialsThenReturn401Status(JwtAuthenticationControllerIntegrationTest.java:109) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675) ~[junit-platform-commons-1.5.2.jar:1.5.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150) [surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124) [surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.2.jar:2.22.2]
+Caused by: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:151) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at com.sakhri.userService.controller.JwtAuthenticationController.authenticate(JwtAuthenticationController.java:70) ~[classes/:?]
+	... 88 more
+2020-mai-15 05:20:42 AM [main] INFO  com.sakhri.userService.exceptions.GlobalExceptionHandler - ExceptionHandler Response : ApiResponseDto(timestamp=2020-05-15T05:20:42.886379, message=INVALID_CREDENTIALS, details=uri=/authenticate)
+2020-mai-15 05:20:43 AM [main] INFO  com.sakhri.userService.UserServiceApplicationTests - No active profile set, falling back to default profiles: default
+2020-mai-15 05:20:51 AM [main] INFO  com.sakhri.userService.UserServiceApplicationTests - Started UserServiceApplicationTests in 8.908 seconds (JVM running for 41.02)
+2020-mai-15 05:20:52 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Updating user id 63346bb1-223a-40c2-8739-ca30e9d8b095 with UserDto(firstName=firstName1, lastName=lastname1, userId=63346bb1-223a-40c2-8739-ca30e9d8b095, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=null)
+2020-mai-15 05:20:52 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=69161d3b-d265-46cb-8091-a7e61038f3b8, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=null)
+2020-mai-15 05:20:52 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=user1@gmail.com, userId=20cb8fc9-d6fb-4cfe-8af2-6f98aa08a8fb, encryptedPassword=$2a$10$IEwoEvmYLKBy6DrDOM8bme34k88V627HgNK2en2FsviYQvaw6WW6K, age=22, height=180, weight=88, role=null)
+2020-mai-15 05:20:52 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Updating user id ffe4e77c-6d3e-441d-aa01-ad4c5027de91 with UserDto(firstName=firstName1, lastName=lastname1, userId=ffe4e77c-6d3e-441d-aa01-ad4c5027de91, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=null)
+2020-mai-15 05:43:51 AM [main] INFO  com.sakhri.userService.services.impl.UserServiceImplTest - No active profile set, falling back to default profiles: default
+2020-mai-15 05:44:06 AM [main] INFO  com.sakhri.userService.services.impl.UserServiceImplTest - Started UserServiceImplTest in 16.477 seconds (JVM running for 23.064)
+2020-mai-15 05:44:07 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Updating user id b3b2f713-8f74-43d1-8bf2-b7df4b5e3a29 with UserDto(firstName=firstName1, lastName=lastname1, userId=b3b2f713-8f74-43d1-8bf2-b7df4b5e3a29, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=null)
+2020-mai-15 05:44:07 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=34e588c3-03ac-45e9-9269-6d0ebab93014, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=null)
+2020-mai-15 05:44:07 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=user1@gmail.com, userId=ddd0cca3-c9ff-489c-90eb-63af31d92f35, encryptedPassword=$2a$10$5v4brMZWtqnBuHStz9q5jOxDLFw0lSIpX6FiIMRq6ajzE5AcKhiC., age=22, height=180, weight=88, role=null)
+2020-mai-15 05:44:07 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Updating user id eba154e6-eeda-4e0d-9d4d-43bfccdc79f8 with UserDto(firstName=firstName1, lastName=lastname1, userId=eba154e6-eeda-4e0d-9d4d-43bfccdc79f8, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=null)
+2020-mai-15 06:35:21 AM [main] INFO  com.sakhri.userService.repository.UserRepositoryTest - No active profile set, falling back to default profiles: default
+2020-mai-15 06:35:24 AM [main] INFO  com.sakhri.userService.repository.UserRepositoryTest - Started UserRepositoryTest in 4.903 seconds (JVM running for 12.643)
+2020-mai-15 06:35:30 AM [main] INFO  com.sakhri.userService.integration.UserControllerIntegrationTest - No active profile set, falling back to default profiles: default
+2020-mai-15 06:35:43 AM [main] INFO  com.sakhri.userService.integration.UserControllerIntegrationTest - Started UserControllerIntegrationTest in 17.953 seconds (JVM running for 31.247)
+2020-mai-15 06:35:43 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=null, password=abcdefghijklmn, encryptedPassword=null, email=userdelete@gmail.com, age=22, height=180, weight=88, role=User)
+2020-mai-15 06:35:43 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=userdelete@gmail.com, userId=bfac92eb-e001-4a6c-ae3a-8ccec8d02468, encryptedPassword=$2a$10$KeFImAg8iaXontw6vaz1deeAiBM7k7UjbDsAqGd9IYNk9Epq6rJoW, age=22, height=180, weight=88, role=User)
+2020-mai-15 06:35:43 AM [main] INFO  com.sakhri.userService.controller.UserController - Deleting existing user with userId bfac92eb-e001-4a6c-ae3a-8ccec8d02468
+2020-mai-15 06:35:43 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - deleting user with id bfac92eb-e001-4a6c-ae3a-8ccec8d02468
+2020-mai-15 06:35:43 AM [main] INFO  com.sakhri.userService.controller.UserController - User succesfully deleted.
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Deleting all users
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.controller.UserController - Creating new user with data CreateUserResquest(firstName=firstName1, lastName=lastname1, role=User, password=abcdefghijklmn, email=user1@gmail.com, age=22, height=180, weight=88)
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=null, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=User)
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=user1@gmail.com, userId=68c1781c-b6ea-47a5-8287-7f154d21573b, encryptedPassword=$2a$10$x6PB6l2AONIbO0uyan.X/OIEMB2cXxqA5famsuKVwvqcPsrz3E/IW, age=22, height=180, weight=88, role=User)
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.controller.UserController - User succesfully created  CreateUserResponse(firstName=firstName1, lastName=lastname1, email=user1@gmail.com, userId=68c1781c-b6ea-47a5-8287-7f154d21573b)
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Deleting all users
+2020-mai-15 06:35:44 AM [main] ERROR com.sakhri.userService.exceptions.GlobalExceptionHandler - ExceptionHandler Response : ApiResponseDto(timestamp=2020-05-15T06:35:44.429621, message=[Email cannot be null], details=uri=/users)
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Deleting all users
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=null, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=User)
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=user1@gmail.com, userId=e7e039f9-ca81-440f-b9c3-3f1591046824, encryptedPassword=$2a$10$Wihmc.gphtACU2cwLK7yHe4pLfj6oYsyvP7ggBIg2.e.ajrkUWwyG, age=22, height=180, weight=88, role=User)
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName2, lastName=lastname2, userId=null, password=abcdefghijklmn, encryptedPassword=null, email=user2@gmail.com, age=22, height=180, weight=88, role=User)
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName2, lastName=lastname2, email=user2@gmail.com, userId=07dcf339-18cb-4f3b-8efa-e16305bfde43, encryptedPassword=$2a$10$ODD22ir.DMWgUY0gdkGChu01csvH/s6Vhk.dCf/8ZBEqIJsyT/WWG, age=22, height=180, weight=88, role=User)
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.controller.UserController - Getting users by filters UserFilterDto(userId=, firstName=firstName1, lastName=, age=null, height=null, weight=null)
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Finding all users by filters UserFilterDto(userId=, firstName=firstName1, lastName=, age=null, height=null, weight=null)
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.controller.UserController - Filtred users retreived [UserDto(firstName=firstName1, lastName=lastname1, userId=e7e039f9-ca81-440f-b9c3-3f1591046824, password=null, encryptedPassword=$2a$10$Wihmc.gphtACU2cwLK7yHe4pLfj6oYsyvP7ggBIg2.e.ajrkUWwyG, email=user1@gmail.com, age=22, height=180, weight=88, role=User)]
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.controller.UserController - Getting users by filters UserFilterDto(userId=, firstName=, lastName=, age=22, height=null, weight=null)
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Finding all users by filters UserFilterDto(userId=, firstName=, lastName=, age=22, height=null, weight=null)
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.controller.UserController - Filtred users retreived [UserDto(firstName=firstName1, lastName=lastname1, userId=e7e039f9-ca81-440f-b9c3-3f1591046824, password=null, encryptedPassword=$2a$10$Wihmc.gphtACU2cwLK7yHe4pLfj6oYsyvP7ggBIg2.e.ajrkUWwyG, email=user1@gmail.com, age=22, height=180, weight=88, role=User), UserDto(firstName=firstName2, lastName=lastname2, userId=07dcf339-18cb-4f3b-8efa-e16305bfde43, password=null, encryptedPassword=$2a$10$ODD22ir.DMWgUY0gdkGChu01csvH/s6Vhk.dCf/8ZBEqIJsyT/WWG, email=user2@gmail.com, age=22, height=180, weight=88, role=User)]
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.controller.UserController - Getting users by filters UserFilterDto(userId=, firstName=firstName1, lastName=lastname2, age=22, height=null, weight=null)
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Finding all users by filters UserFilterDto(userId=, firstName=firstName1, lastName=lastname2, age=22, height=null, weight=null)
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.controller.UserController - Filtred users retreived []
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Deleting all users
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=null, password=abcdefghijklmn, encryptedPassword=null, email=userUpdate@gmail.com, age=22, height=180, weight=88, role=User)
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=userUpdate@gmail.com, userId=f8b6fb3f-a3f9-44bd-ac0b-78de590b6037, encryptedPassword=$2a$10$kY0NqNPAJxVvRmH7v95WhOTxcPUpGJnMfnxnJ3MofGVdU2Dbf.mWG, age=22, height=180, weight=88, role=User)
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.controller.UserController - Updating existing user with id f8b6fb3f-a3f9-44bd-ac0b-78de590b6037 and data UpdateUserResquest(firstName=firstName1, lastName=lastname1, age=20, height=120, weight=80)
+2020-mai-15 06:35:44 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Updating user id f8b6fb3f-a3f9-44bd-ac0b-78de590b6037 with UserDto(firstName=firstName1, lastName=lastname1, userId=null, password=null, encryptedPassword=null, email=null, age=20, height=120, weight=80, role=null)
+2020-mai-15 06:35:45 AM [main] INFO  com.sakhri.userService.controller.UserController - User succesfully updated.
+2020-mai-15 06:35:45 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Deleting all users
+2020-mai-15 06:35:45 AM [main] INFO  com.sakhri.userService.controller.UserController - Deleting existing user with userId NO_EXISTING_ID
+2020-mai-15 06:35:45 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - deleting user with id NO_EXISTING_ID
+2020-mai-15 06:35:45 AM [main] ERROR com.sakhri.userService.exceptions.GlobalExceptionHandler - User not found.
+java.lang.IllegalArgumentException: User not found.
+	at com.sakhri.userService.service.impl.UserServiceImpl.lambda$deleteUser$1(UserServiceImpl.java:83) ~[classes/:?]
+	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
+	at com.sakhri.userService.service.impl.UserServiceImpl.deleteUser(UserServiceImpl.java:82) ~[classes/:?]
+	at com.sakhri.userService.controller.UserController.deleteUser(UserController.java:82) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:666) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:167) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:183) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at com.sakhri.userService.integration.UserControllerIntegrationTest.whenDeletingUserWithNonExistingIDThenReturn400Status(UserControllerIntegrationTest.java:256) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675) ~[junit-platform-commons-1.5.2.jar:1.5.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150) [surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124) [surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.2.jar:2.22.2]
+2020-mai-15 06:35:45 AM [main] INFO  com.sakhri.userService.exceptions.GlobalExceptionHandler - ExceptionHandler Response : ApiResponseDto(timestamp=2020-05-15T06:35:45.087667, message=User not found., details=uri=/users/NO_EXISTING_ID)
+2020-mai-15 06:35:45 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Deleting all users
+2020-mai-15 06:35:45 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=06765c53-bccd-426b-8ae3-19fd1abeaf9e, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=User)
+2020-mai-15 06:35:45 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=user1@gmail.com, userId=4a0f42a7-8209-4c5b-9c19-29c37eb4f6bc, encryptedPassword=$2a$10$WGoMvCPkDK9DMrttbbraTeGfnGQYqk7d7Ws7rPLykZBSmEAlBDNpa, age=22, height=180, weight=88, role=User)
+2020-mai-15 06:35:45 AM [main] INFO  com.sakhri.userService.controller.JwtAuthenticationController - Authenticating request LoginRequest(email=user1@gmail.com, password=abcdefghijklmn)
+2020-mai-15 06:35:45 AM [main] INFO  com.sakhri.userService.controller.JwtAuthenticationController - Authenticating user with username user1@gmail.com and pwd abcdefghijklmn 
+2020-mai-15 06:35:45 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Loading UserDetails By Username user1@gmail.com
+2020-mai-15 06:35:45 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Getting user by email user1@gmail.com
+2020-mai-15 06:35:45 AM [main] INFO  com.sakhri.userService.controller.JwtAuthenticationController - User succfully authenticated JwtResponse(userId=4a0f42a7-8209-4c5b-9c19-29c37eb4f6bc, token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMUBnbWFpbC5jb20iLCJleHAiOjE1ODk1MzUzNDUsImlhdCI6MTU4OTUxNzM0NX0.DCikrvwNFfFWV9qDM579qZr2rOu5c_k2SeH61-KV92ZrYXw6-kwv82CfSF8-Z6c2Tq5KNZjsy2B4RN68C_r_4Q, firstName=firstName1, lastName=lastname1, age=22, height=180, weight=88, role=User)
+2020-mai-15 06:35:46 AM [main] INFO  com.sakhri.userService.controller.JwtAuthenticationController - Authenticating request LoginRequest(email=userjj1@gmail.com, password=abcdefghijklmn)
+2020-mai-15 06:35:46 AM [main] INFO  com.sakhri.userService.controller.JwtAuthenticationController - Authenticating user with username userjj1@gmail.com and pwd abcdefghijklmn 
+2020-mai-15 06:35:46 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Loading UserDetails By Username userjj1@gmail.com
+2020-mai-15 06:35:46 AM [main] ERROR com.sakhri.userService.exceptions.GlobalExceptionHandler - INVALID_CREDENTIALS
+org.springframework.security.authentication.BadCredentialsException: INVALID_CREDENTIALS
+	at com.sakhri.userService.controller.JwtAuthenticationController.authenticate(JwtAuthenticationController.java:74) ~[classes/:?]
+	at com.sakhri.userService.controller.JwtAuthenticationController.createAuthenticationToken(JwtAuthenticationController.java:43) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:167) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:183) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at com.sakhri.userService.integration.JwtAuthenticationControllerIntegrationTest.whenCreateAuthenticationTokenWithInvalidCredentialsThenReturn401Status(JwtAuthenticationControllerIntegrationTest.java:109) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675) ~[junit-platform-commons-1.5.2.jar:1.5.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) [junit-platform-launcher-1.3.1.jar:1.3.1]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150) [surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124) [surefire-junit-platform-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.2.jar:2.22.2]
+Caused by: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:151) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[spring-security-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:501) ~[spring-security-config-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at com.sakhri.userService.controller.JwtAuthenticationController.authenticate(JwtAuthenticationController.java:70) ~[classes/:?]
+	... 88 more
+2020-mai-15 06:35:46 AM [main] INFO  com.sakhri.userService.exceptions.GlobalExceptionHandler - ExceptionHandler Response : ApiResponseDto(timestamp=2020-05-15T06:35:46.113955, message=INVALID_CREDENTIALS, details=uri=/authenticate)
+2020-mai-15 06:35:46 AM [main] INFO  com.sakhri.userService.UserServiceApplicationTests - No active profile set, falling back to default profiles: default
+2020-mai-15 06:35:55 AM [main] INFO  com.sakhri.userService.UserServiceApplicationTests - Started UserServiceApplicationTests in 9.355 seconds (JVM running for 43.163)
+2020-mai-15 06:35:55 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Updating user id 6a968af8-380f-4af7-bfe4-4993a843573d with UserDto(firstName=firstName1, lastName=lastname1, userId=6a968af8-380f-4af7-bfe4-4993a843573d, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=null)
+2020-mai-15 06:35:55 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Creating user UserDto(firstName=firstName1, lastName=lastname1, userId=e9515b6d-742f-4a06-9d82-47b50d76bbf6, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=null)
+2020-mai-15 06:35:56 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Saving to DB Entity UserEntity(id=0, firstName=firstName1, lastName=lastname1, email=user1@gmail.com, userId=348eeca1-7619-4bd7-9520-37cd639fca91, encryptedPassword=$2a$10$puAUek.lumLABIgYW/JPputZoZMSIQM8Yn8cr4T.FovGZ/kVPcViq, age=22, height=180, weight=88, role=null)
+2020-mai-15 06:35:56 AM [main] INFO  com.sakhri.userService.service.impl.UserServiceImpl - Updating user id f30c68c3-afde-4d46-9968-566320c8d2b3 with UserDto(firstName=firstName1, lastName=lastname1, userId=f30c68c3-afde-4d46-9968-566320c8d2b3, password=abcdefghijklmn, encryptedPassword=null, email=user1@gmail.com, age=22, height=180, weight=88, role=null)

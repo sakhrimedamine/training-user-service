@@ -9,9 +9,13 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Builder.Default;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
@@ -50,6 +54,7 @@ public class UserEntity implements Serializable{
 	private Short weight;
 
 	@Column(nullable=false)
+	@Default
 	private String role = "User";
 
 }

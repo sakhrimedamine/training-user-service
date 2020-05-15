@@ -11,14 +11,20 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sakhri.userService.beans.LoginRequest;
+import com.sakhri.userService.dto.JwtResponse;
+import com.sakhri.userService.dto.LoginRequest;
 import com.sakhri.userService.dto.UserDto;
-import com.sakhri.userService.model.JwtResponse;
 import com.sakhri.userService.security.JwtTokenUtil;
 import com.sakhri.userService.service.UserService;
 
+import lombok.extern.log4j.Log4j2;
+
+@Log4j2
 @RestController
 public class JwtAuthenticationController {
+
+	static final String DISABLED_MSG = "USER_DISABLED";
+	static final String INVALID_CREDENTIALS_MSG = "INVALID_CREDENTIALS";
 
 	@Autowired
 	private AuthenticationManager authenticationManager;
@@ -32,36 +38,40 @@ public class JwtAuthenticationController {
 	@RequestMapping(value = "/authenticate", method = RequestMethod.POST)
 	public ResponseEntity<?> createAuthenticationToken(@RequestBody LoginRequest authenticationRequest) throws Exception {
 
-		authenticate(authenticationRequest.getEmail(), authenticationRequest.getPassword());
+		log.info("Authenticating request {}", authenticationRequest);
 
-//		final UserDetails userDetails = userDetailsService
-//				.loadUserByUsername(authenticationRequest.getEmail());
-//
-//		final String token = jwtTokenUtil.generateToken(userDetails);
+		authenticate(authenticationRequest.getEmail(), authenticationRequest.getPassword());
 
 		UserDto user = userDetailsService.getUserDetailsByEmail(authenticationRequest.getEmail());
 		
 		final String token = jwtTokenUtil.generateToken(user);
 		
-		JwtResponse response = JwtResponse.builder().firstName(user.getFirstName())
+		JwtResponse response = JwtResponse.builder()
+				.firstName(user.getFirstName())
 				.lastName(user.getLastName())
 				.age(user.getAge())
+				.height(user.getHeight())
+				.weight(user.getWeight())
 				.userId(user.getUserId())
 				.role(user.getRole())
 				.token(token)
 				.build();
 		
+		log.info("User succfully authenticated {}", response);
+
 		return ResponseEntity.ok(response);
 	}
 	
 
 	private void authenticate(String username, String password) throws Exception {
+		log.info("Authenticating user with username {} and pwd {} ", username, password);
+		
 		try {
 			authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(username, password));
 		} catch (DisabledException e) {
-			throw new Exception("USER_DISABLED", e);
+			throw new DisabledException(DISABLED_MSG, e);
 		} catch (BadCredentialsException e) {
-			throw new Exception("INVALID_CREDENTIALS", e);
+			throw new BadCredentialsException(INVALID_CREDENTIALS_MSG, e);
 		}
 	}
 }

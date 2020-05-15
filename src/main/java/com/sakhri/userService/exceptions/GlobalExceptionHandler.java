@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -20,14 +21,20 @@ public class GlobalExceptionHandler {
 	
 //	private static final String ERROR_MSG = "500 Internal Server Error.";
 
-	
-	
 	@ExceptionHandler(Exception.class)
 	public ResponseEntity<ApiResponseDto> globleExcpetionHandler(Exception ex, WebRequest request) {
 		log.error(ex.getMessage(), ex);
 		ApiResponseDto errorDetails = new ApiResponseDto(LocalDateTime.now(), ex.getMessage(), request.getDescription(false));
 		log.info("ExceptionHandler Response : {}", errorDetails);
 		return new ResponseEntity<>(errorDetails, HttpStatus.INTERNAL_SERVER_ERROR);
+	}
+	
+	@ExceptionHandler(BadCredentialsException.class)
+	public ResponseEntity<ApiResponseDto> globleBadCredentialsExceptionHandler(BadCredentialsException ex, WebRequest request) {
+		log.error(ex.getMessage(), ex);
+		ApiResponseDto errorDetails = new ApiResponseDto(LocalDateTime.now(), ex.getMessage(), request.getDescription(false));
+		log.info("ExceptionHandler Response : {}", errorDetails);
+		return new ResponseEntity<>(errorDetails, HttpStatus.UNAUTHORIZED);
 	}
 	
 	@ExceptionHandler(IllegalArgumentException.class)

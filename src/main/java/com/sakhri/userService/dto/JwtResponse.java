@@ -1,4 +1,4 @@
-package com.sakhri.userService.model;
+package com.sakhri.userService.dto;
 
 import java.io.Serializable;
 

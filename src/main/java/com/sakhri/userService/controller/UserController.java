@@ -1,6 +1,5 @@
 package com.sakhri.userService.controller;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 import javax.validation.Valid;
@@ -18,22 +17,23 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.context.request.WebRequest;
 
-import com.sakhri.userService.beans.CreateUserResponse;
-import com.sakhri.userService.beans.CreateUserResquest;
-import com.sakhri.userService.beans.UpdateUserResquest;
-import com.sakhri.userService.dto.ApiResponseDto;
+import com.sakhri.userService.dto.CreateUserResponse;
+import com.sakhri.userService.dto.CreateUserResquest;
+import com.sakhri.userService.dto.UpdateUserResquest;
 import com.sakhri.userService.dto.UserDto;
 import com.sakhri.userService.dto.UserFilterDto;
-import com.sakhri.userService.model.UserEntity;
 import com.sakhri.userService.service.UserService;
 
 import lombok.extern.log4j.Log4j2;
 
 @Log4j2
 @RestController()
-@RequestMapping("users")
+@RequestMapping(
+		value = "users",
+		consumes = { MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE },
+		produces = { MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE }
+)
 public class UserController {
 	
 	@Autowired
@@ -42,60 +42,82 @@ public class UserController {
 	@Autowired
 	private ModelMapper modelMapper;
 
-	@PostMapping(
-			consumes = { MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE },
-			produces = { MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE }
-			)
-	public ResponseEntity<CreateUserResponse> createUser(@Valid @RequestBody(required = true) CreateUserResquest user,
-			WebRequest request) {
+	@PostMapping()
+	public ResponseEntity<CreateUserResponse> createUser(@Valid @RequestBody(required = true) CreateUserResquest user) {
+		log.info("Creating new user with data {}", user);
 		
 		UserDto dto = modelMapper.map(user, UserDto.class);
+		
 		UserDto createdUser = userService.createUser(dto);
+		
 		CreateUserResponse response = modelMapper.map(createdUser, CreateUserResponse.class);
+
+		log.info("User succesfully created  {}", response);
 
 		return ResponseEntity.status(HttpStatus.CREATED)
 							 .body(response);
 	}
 	
-	@PutMapping("/{id}")
-	public ResponseEntity<ApiResponseDto> updateUser(@PathVariable("id") Long id, 
-			@Valid @RequestBody(required = true) UpdateUserResquest user, WebRequest request) {
-				
+	@PutMapping("/{userId}")
+	public ResponseEntity<Boolean> updateUser(@PathVariable("userId") String userId, 
+			@Valid @RequestBody(required = true) UpdateUserResquest user) {
+		
+		log.info("Updating existing user with id {} and data {}", userId, user);
+
 		UserDto dto = modelMapper.map(user, UserDto.class);
-		userService.updateUser(dto, id);
-		return ResponseEntity.ok(ApiResponseDto.builder()
-									.message("User successfully updated")
-									.timestamp(LocalDateTime.now())
-									.details(request.getDescription(false))
-									.build());
+		
+		final boolean updateUser = userService.updateUser(dto, userId);
+		
+		log.info("User succesfully updated.");
+
+		return ResponseEntity.ok(updateUser);
 									
 	}
 	
-	@DeleteMapping("/{id}")
-	public ResponseEntity<ApiResponseDto> deleteUser(@PathVariable("id") Long id, WebRequest request) {
+	@DeleteMapping("/{userId}")
+	public ResponseEntity<Boolean> deleteUser(@PathVariable("userId") String userId) {
 		
-		userService.deleteUser(id);
-		return ResponseEntity.ok(ApiResponseDto.builder()
-									.message("User successfully deleted")
-									.timestamp(LocalDateTime.now())
-									.details(request.getDescription(false))
-									.build());
+		log.info("Deleting existing user with userId {}", userId);
+
+		final boolean deleteUser = userService.deleteUser(userId);
+		
+		log.info("User succesfully deleted.");
+
+		return ResponseEntity.ok(deleteUser);
 	}
 	
 	@GetMapping
-	public ResponseEntity<List<UserEntity>> getUsers() {
+	public ResponseEntity<List<UserDto>> getUsers() {
 		log.info("Getting all users");
-		return ResponseEntity.ok(userService.getAllUsers());
+		
+		final List<UserDto> allUsers = userService.getAllUsers();
+		
+		log.info("Users retreived {}", allUsers);
+
+		return ResponseEntity.ok(allUsers);
 	}
 	
 	@GetMapping(params = {"firstName","lastName", "userId", "weight", "height", "age"})
-	public ResponseEntity<List<UserEntity>> getUsersByFilter(UserFilterDto dto) {
+	public ResponseEntity<List<UserDto>> getUsersByFilter(UserFilterDto dto) {
 		log.info("Getting users by filters {}", dto);
-		return ResponseEntity.ok(userService.getUsersByFilter(dto));
+		
+		final List<UserDto> usersByFilter = userService.getUsersByFilter(dto);
+		
+		log.info("Filtred users retreived {}", usersByFilter);
+
+		return ResponseEntity.ok(usersByFilter);
 	}
 	
-	@GetMapping("/{id}")
-	public ResponseEntity<UserDto> getUser(@PathVariable("id") String id) {
-		return ResponseEntity.ok(modelMapper.map(userService.getUserByUserId(id), UserDto.class));
+	@GetMapping("/{userId}")
+	public ResponseEntity<UserDto> getUser(@PathVariable("userId") String userId) {
+		log.info("Getting users by userId {}", userId);
+
+		final UserDto userByUserId = userService.getUserByUserId(userId);
+		
+		final UserDto dto = modelMapper.map(userByUserId, UserDto.class);
+		
+		log.info("User retreived {}", dto);
+
+		return ResponseEntity.ok(dto);
 	}
 }
